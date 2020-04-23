@@ -1,5 +1,6 @@
+# Sesion3_exercises
+#Date = 14/4/2020
 import math
-
 print(math.pi)
 
 print(math.e)
