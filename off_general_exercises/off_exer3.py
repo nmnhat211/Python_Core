@@ -23,15 +23,14 @@ BT6: In ra chuỗi ngược,
 
 print('BT1')
 Str = input('Str = ')
-temp = ''
 for i in range(len(Str)):
-
     if(Str[i] == Str[0]):
         print('-----------')
         print(f'Replace: {Str[0]}')
         print('Result: ', Str.replace(Str[0], '$')) # Replace Str[0] = $
         break
 
+     
 # print('BT2')
 # while 9999:
 #     Str = input('Str = ')
@@ -67,6 +66,7 @@ for i in range(len(Str)):
 #         break
 #     print('Chuỗi rỗng, xin nhập lại!')
 
+
 # print('BT5')
 # Str = input('Str = ')
 # min_str = Str[0]
@@ -80,6 +80,7 @@ for i in range(len(Str)):
 #             continue
 # print('-----------')
 # print(f'Result: Min = {min_str}, Max = {max_str}')
+
 
 # print('BT6')
 # Str = input('Str = ')
